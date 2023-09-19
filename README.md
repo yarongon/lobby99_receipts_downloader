@@ -12,7 +12,7 @@ To utilize this tool effectively, follow these straightforward steps:
 
 2. Execute the script using the following command:
    ```shell
-   $ python dl_receipts.py email.eml
+   $ python dl_lobby99_receipts.py email.eml
    ```
 
    This command will initiate the downloading process, and all retrieved PDF files will be conveniently stored in your current directory.
