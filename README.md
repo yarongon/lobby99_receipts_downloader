@@ -1,14 +1,20 @@
 # Lobby 99 Receipts Downloader
-## Intro
-At the beginning of each year, Lobby 99 sends an email with all the receipts for the previous year.
-The receipts are *not* attached to the email, but rather are links for downloading them.
-This process of clicking each file and saveing it is tedious.
-This script downloads all the file for you 😀
+
+## Introduction
+The Lobby 99 Receipts Downloader is a utility designed to streamline the process of retrieving receipts sent by Lobby 99 via email at the end of each year.
+Typically, these receipts are provided as download links within the email, making the manual downloading process cumbersome and time-consuming.
+This script simplifies the task by automating the retrieval of all associated files for your convenience.
 
 ## Usage
-- Download the email, and save it as an `eml` file, e.g. `email.eml`
-- Run the script: `$python dl_receipts.py email.eml`
+To utilize this tool effectively, follow these straightforward steps:
 
-All the PDFs will be saved in the current directory.
+1. Download the email containing the receipts and save it as an `eml` file, such as `email.eml`.
+
+2. Execute the script using the following command:
+   ```shell
+   $ python dl_receipts.py email.eml
+   ```
+
+   This command will initiate the downloading process, and all retrieved PDF files will be conveniently stored in your current directory.
 
 Enjoy!
