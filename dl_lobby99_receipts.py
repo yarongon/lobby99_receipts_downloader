@@ -16,11 +16,15 @@ def get_pdf_url(url: str) -> str:
     pdf_url_match = pdf_regex.search(r.text)
     if not pdf_url_match:
         print("Pattern not found on", r.text)
+        return ""
 
     return pdf_url_match[0]
 
 
 def download_pdf(pdf_url: str) -> None:
+    if not pdf_url:
+        return None
+    
     parsed_url = urlparse(pdf_url)
     path_list = parsed_url.path.split("/")
     year, month = path_list[-3], path_list[-2]
