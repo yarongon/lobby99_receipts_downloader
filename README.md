@@ -17,4 +17,8 @@ To utilize this tool effectively, follow these straightforward steps:
 
    This command will initiate the downloading process, and all retrieved PDF files will be conveniently stored in your current directory.
 
+## How does it Work
+The email comprises HTML code. Within this code, the script identifies all the URLs enclosed within `a` tags. It then filters and retains only those URLs whose descriptions include the term `pdf`.
+It's important to note that these URLs are not direct links to the PDF files; instead, the script follows the redirection in each link to obtain the actual URL pointing to the PDF file.
+
 Enjoy!
