@@ -21,4 +21,11 @@ To utilize this tool effectively, follow these straightforward steps:
 The email comprises HTML code. Within this code, the script identifies all the URLs enclosed within `a` tags. It then filters and retains only those URLs whose descriptions include the term `pdf`.
 It's important to note that these URLs are not direct links to the PDF files; instead, the script follows the redirection in each link to obtain the actual URL pointing to the PDF file.
 
+## More options
+Adding the flag `-v` (or `--verbose`) will make the script print the URLs it is fetching -- first for getting the direct links, then for saving the files.
+
+The flag `-n` (or `--dry-run`) will prevent the downloading of PDF files (but not the fetching of pages for redirection).
+
+As may be expected, `-h` (or `--help`) will list available options.
+
 Enjoy!
