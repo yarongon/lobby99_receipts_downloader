@@ -1,13 +1,14 @@
-from typing import List
-import requests
-import re
-import email
-import bs4 as bs
-from urllib.parse import urlparse
 import argparse
 import concurrent.futures
-from tqdm import tqdm
+import email
+import re
 from datetime import date
+from typing import List
+from urllib.parse import urlparse
+
+import bs4 as bs
+import requests
+from tqdm import tqdm
 
 
 pdf_regex = re.compile(r"https://.*\.pdf", flags=re.MULTILINE)
