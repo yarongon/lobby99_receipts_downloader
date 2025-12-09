@@ -8,7 +8,7 @@ import argparse
 import concurrent.futures
 from tqdm import tqdm
 
-pdf_regex = re.compile("https:\/\/.*\.pdf", flags=re.MULTILINE)
+pdf_regex = re.compile(r"https://.*\.pdf", flags=re.MULTILINE)
 
 
 def get_pdf_url(url: str, verbose: bool=False) -> str:
