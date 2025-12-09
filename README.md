@@ -26,6 +26,8 @@ Adding the flag `-v` (or `--verbose`) will make the script print the URLs it is 
 
 The flag `-n` (or `--dry-run`) will prevent the downloading of PDF files (but not the fetching of pages for redirection).
 
+The option `-y` (or `--year`) can be used to specify the year (for saved file names). Default is last year.
+
 As may be expected, `-h` (or `--help`) will list available options.
 
 Enjoy!
